@@ -17,10 +17,10 @@ public String getPartDescription() {
 public void setPartDescription(String partDescription) {
 	this.partDescription = partDescription;
 }
-public int getquantity() {
+public int getQuantity() {
 	return quantity;
 }
-public void setquantity(int quantity) {
+public void setQuantity(int quantity) {
 	if(quantity<0) {
 		this.quantity=0;
 }else
@@ -29,14 +29,16 @@ public void setquantity(int quantity) {
 	this.quantity=quantity;
 }
 }
-public void setQuantity(int quantity) {
-	this.quantity = quantity;
-}
 
 public double getPrice() {
 	return price;
 }
 public void setPrice(double price) {
 	this.price = price;
+}
+public double getinvoiceAmount()
+{
+	double invoiceAmount=price*quantity;
+	return invoiceAmount;
 }
 }
