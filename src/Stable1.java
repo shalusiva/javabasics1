@@ -1,10 +1,8 @@
-package com.basics1;
 import java.util.Scanner;
-public class Stable {
 
+import com.basics1.Stable;
 
-
-	        int i1,i2,i3,i4,i5,x,num,num1,sum=0;
+int i1,i2,i3,i4,i5,x,num,num1,sum=0;
 	        public int findPassword(int input1,int input2,int input3,int input4,int input5) {
 	            i1=input1;
 	            i2=input2;
@@ -48,10 +46,10 @@ public class Stable {
 	        Scanner scanner=new Scanner(System.in);
 	        System.out.println("enter the five number which are available in the kids:");
 	        int input1=scanner.nextInt();
-		       int input2=scanner.nextInt();
-		       int input3=scanner.nextInt();
-		       int input4=scanner.nextInt();
-		        int input5=scanner.nextInt();
+	       int input2=scanner.nextInt();
+	       int input3=scanner.nextInt();
+	       int input4=scanner.nextInt();
+	        int input5=scanner.nextInt();
 	        System.out.println("The password is="+stable.findPassword(input1,input2,input3,input4,input5));
 	        }
 	    }
@@ -64,3 +62,7 @@ public class Stable {
 
 
 
+
+public class Stable1 {
+
+}
