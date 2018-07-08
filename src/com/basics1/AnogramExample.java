@@ -8,7 +8,7 @@ public class AnogramExample {
 	int count=0;
 
 	if(s.length()==t.length())
-	{
+     {
 	for(int i=0;i<s.length();i++)
 	{
 	for(int j=0;j<t.length();j++)
